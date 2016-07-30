@@ -42,11 +42,12 @@ namespace TE
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(13, 156);
+            this.button1.Location = new System.Drawing.Point(105, 194);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "button1";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
