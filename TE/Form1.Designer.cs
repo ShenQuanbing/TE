@@ -31,6 +31,7 @@ namespace TE
             this.comboBox1 = new Gizmox.WebGUI.Forms.ComboBox();
             this.button1 = new Gizmox.WebGUI.Forms.Button();
             this.comboBox2 = new Gizmox.WebGUI.Forms.ComboBox();
+            this.comboBox3 = new Gizmox.WebGUI.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -58,8 +59,17 @@ namespace TE
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
             this.comboBox2.TabIndex = 2;
             // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(81, 294);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 21);
+            this.comboBox3.TabIndex = 3;
+            // 
             // Form1
             // 
+            this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
@@ -74,5 +84,6 @@ namespace TE
         private Gizmox.WebGUI.Forms.ComboBox comboBox1;
         private Gizmox.WebGUI.Forms.Button button1;
         private Gizmox.WebGUI.Forms.ComboBox comboBox2;
+        private Gizmox.WebGUI.Forms.ComboBox comboBox3;
     }
 }
