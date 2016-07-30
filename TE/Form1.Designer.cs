@@ -32,6 +32,7 @@ namespace TE
             this.button1 = new Gizmox.WebGUI.Forms.Button();
             this.comboBox2 = new Gizmox.WebGUI.Forms.ComboBox();
             this.comboBox3 = new Gizmox.WebGUI.Forms.ComboBox();
+            this.button2 = new Gizmox.WebGUI.Forms.Button();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -44,7 +45,7 @@ namespace TE
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(95, 136);
+            this.button1.Location = new System.Drawing.Point(42, 136);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -67,8 +68,17 @@ namespace TE
             this.comboBox3.Size = new System.Drawing.Size(121, 21);
             this.comboBox3.TabIndex = 3;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(175, 136);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "button2";
+            // 
             // Form1
             // 
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.button1);
@@ -85,5 +95,6 @@ namespace TE
         private Gizmox.WebGUI.Forms.Button button1;
         private Gizmox.WebGUI.Forms.ComboBox comboBox2;
         private Gizmox.WebGUI.Forms.ComboBox comboBox3;
+        private Gizmox.WebGUI.Forms.Button button2;
     }
 }
