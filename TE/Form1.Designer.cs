@@ -33,6 +33,7 @@ namespace TE
             this.comboBox2 = new Gizmox.WebGUI.Forms.ComboBox();
             this.comboBox3 = new Gizmox.WebGUI.Forms.ComboBox();
             this.button2 = new Gizmox.WebGUI.Forms.Button();
+            this.label1 = new Gizmox.WebGUI.Forms.Label();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -76,8 +77,18 @@ namespace TE
             this.button2.TabIndex = 4;
             this.button2.Text = "button2";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(51, 64);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "神奇的测试2016年8月1日02:40:03";
+            // 
             // Form1
             // 
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
@@ -96,5 +107,6 @@ namespace TE
         private Gizmox.WebGUI.Forms.ComboBox comboBox2;
         private Gizmox.WebGUI.Forms.ComboBox comboBox3;
         private Gizmox.WebGUI.Forms.Button button2;
+        private Gizmox.WebGUI.Forms.Label label1;
     }
 }
