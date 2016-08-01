@@ -90,7 +90,7 @@ namespace TE
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(136, 173);
+            this.label2.Location = new System.Drawing.Point(127, 174);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 6;
