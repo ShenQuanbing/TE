@@ -94,7 +94,7 @@ namespace TE
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 6;
-            this.label2.Text = "PC-A";
+            this.label2.Text = "PC-B";
             // 
             // Form1
             // 
